@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Installation - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\RSP6184.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Installation.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Windows\Desktop\Hole port\Installation.cpp"
+]
+Creating command line "cl.exe @c:\RSP6184.TMP" 
+<h3>Output Window</h3>
+Compiling...
+Installation.cpp
+C:\Windows\Desktop\Hole port\Installation.cpp(6) : warning C4518: 'char ' : storage-class or type specifier(s) unexpected here; ignored
+C:\Windows\Desktop\Hole port\Installation.cpp(6) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\Windows\Desktop\Hole port\Installation.cpp(13) : warning C4129: 'P' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(13) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(13) : warning C4129: 'C' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(13) : error C2440: '=' : cannot convert from 'char [37]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(14) : warning C4129: 'W' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(14) : warning C4129: 'S' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(14) : warning C4129: 'C' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(14) : error C2440: '=' : cannot convert from 'char [27]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(16) : error C2065: 'file_copy' : undeclared identifier
+C:\Windows\Desktop\Hole port\Installation.cpp(24) : warning C4129: 'P' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(24) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(24) : warning C4129: 'C' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(24) : error C2440: '=' : cannot convert from 'char [38]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(25) : warning C4129: 'W' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(25) : warning C4129: 'S' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(25) : warning C4129: 'C' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(25) : error C2440: '=' : cannot convert from 'char [28]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(35) : warning C4129: 'P' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(35) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(35) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(35) : error C2440: '=' : cannot convert from 'char [35]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(36) : warning C4129: 'W' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(36) : warning C4129: 'S' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(36) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(36) : error C2440: '=' : cannot convert from 'char [25]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(46) : warning C4129: 'P' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(46) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(46) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(46) : error C2440: '=' : cannot convert from 'char [36]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(47) : warning C4129: 'W' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(47) : warning C4129: 'S' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(47) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(47) : error C2440: '=' : cannot convert from 'char [26]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(57) : warning C4129: 'P' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(57) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(57) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(57) : error C2440: '=' : cannot convert from 'char [38]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(58) : warning C4129: 'W' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(58) : warning C4129: 'S' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(58) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(58) : error C2440: '=' : cannot convert from 'char [28]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(67) : warning C4129: 'P' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(67) : warning C4129: 'M' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(67) : warning C4129: 'V' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(67) : error C2440: '=' : cannot convert from 'char [38]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(68) : warning C4129: 'W' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(68) : warning C4129: 'S' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(68) : warning C4129: 'V' : unrecognized character escape sequence
+C:\Windows\Desktop\Hole port\Installation.cpp(68) : error C2440: '=' : cannot convert from 'char [28]' to 'char [80]'
+        There is no context in which this conversion is possible
+C:\Windows\Desktop\Hole port\Installation.cpp(86) : error C2373: 'file_copy' : redefinition; different type modifiers
+C:\Windows\Desktop\Hole port\Installation.cpp(106) : error C2065: 'fold_' : undeclared identifier
+C:\Windows\Desktop\Hole port\Installation.cpp(106) : error C2143: syntax error : missing ')' before ';'
+C:\Windows\Desktop\Hole port\Installation.cpp(108) : error C2065: 'eof' : undeclared identifier
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Installation.obj - 17 error(s), 38 warning(s)
+</pre>
+</body>
+</html>
