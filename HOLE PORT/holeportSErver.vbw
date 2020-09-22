@@ -1,0 +1,9 @@
+frmMain = 44, 44, 577, 519, , 22, 22, 555, 497, C
+basMouse = 0, 0, 0, 0, C
+CaptureScreen = 0, 0, 0, 0, C
+findfiles = 110, 110, 643, 585, 
+ResolutionAndWindows = 0, 0, 0, 0, C
+startup = 0, 0, 0, 0, C
+transp = 0, 0, 0, 0, C
+URL = 0, 0, 0, 0, C
+Winsock2 = 0, 0, 0, 0, C

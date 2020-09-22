@@ -1,0 +1,132 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Server
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Server]
+Icon1=WebServer.exe
+Title1=web server
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2="port buster.exe"
+Title2=port scanner
+StartIn2=$(AppPath)
+Key2=Icon3
+
+
+[Package|Standard Setup Package 1|NetHoleServer]
+Icon1=HoleServerInstallation.exe
+Title1=NetHoleServer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|ServerHole]
+Icon1=HoleServerInstallation.exe
+Title1=ServerHole
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Patch
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+holeserverinstallation.exe=
+port buster.exe=
+WebServer.exe=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\Desktop\HOLE PORT\HoleServerInstallation.exe=
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=
+C:\WINDOWS\Desktop\WebServer\WebServer.exe=
+C:\WINDOWS\Desktop\NETHOLE\NEThole Server\Support\WebServer.exe=
+C:\WINDOWS\Desktop\port buster.exe=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+port buster.exe=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Desktop\HOLE PORT\MainServer.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Desktop\MainServer.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\dEMO\MainServer.exe=$(WinSysPath)
+C:\WINDOWS\Desktop\HOLE PORT\HoleServerInstallation.exe=$(AppPath)
+C:\WINDOWS\Desktop\HOLE PORT\MainServer.exe=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CSFED32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPath)
+C:\WINDOWS\Desktop\WebServer\WebServer.exe=$(AppPath)
+C:\WINDOWS\Desktop\NETHOLE\NEThole Server\Support\WebServer.exe=$(AppPath)
+C:\WINDOWS\Desktop\port buster.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=No
+C:\WINDOWS\Desktop\MainServer.exe=Yes
+C:\WINDOWS\Desktop\dEMO\MainServer.exe=No
+C:\WINDOWS\Desktop\HOLE PORT\HoleServerInstallation.exe=No
+C:\WINDOWS\Desktop\WebServer\WebServer.exe=Yes
+C:\WINDOWS\Desktop\NETHOLE\NEThole Server\Support\WebServer.exe=Yes
+C:\WINDOWS\Desktop\port buster.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=MainServer Patch
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\Patch
+ProjectFolder=C:\WINDOWS\Desktop\HOLE PORT
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Patch\setup.exe
+File2=C:\WINDOWS\Desktop\Patch\Setup.Lst
+File3=C:\WINDOWS\Desktop\Patch\MainServer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
